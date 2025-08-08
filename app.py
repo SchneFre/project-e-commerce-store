@@ -293,7 +293,7 @@ with gr.Blocks() as demo:
     # Textbox to display the cart contents
     cart_display = gr.Textbox(label="Your Cart")
 
-    # When "View Cart" is clicked, call view_cart and show the result in the textbox
+    # When "View Cart" is clicked, call view_cart and show the result in the textbox<
     view_btn.click(
         lambda: view_cart(db, r),
         outputs=cart_display
